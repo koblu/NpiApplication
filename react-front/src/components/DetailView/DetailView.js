@@ -26,10 +26,10 @@ const DetailView = (props) => {
   });
 
   return (
-  <Paper elevation={2} sx={{width: '100%', height: '80vh', paddingTop: '50px', paddingBottom: '50px', overflow:"auto"}}>
-    <Box sx={{position:"relative"}}>
-      <ClearIcon sx={{position:'absolute', top: '-30px', left: '10px', color: 'red'}} onClick={props.clearSelected} />
-    </Box>
+  <Paper elevation={2} sx={{width: '100%', height: '80vh', paddingTop: '50px', paddingBottom: '50px', overflow:"auto", position:'relative'}}>
+
+    <ClearIcon sx={{position:'sticky', top: '-30px', margin:'0px',width:'100px', marginRight:'auto', display:'block', color: 'red'}} onClick={props.clearSelected} />
+
     <Box>
       {details?.basic?.organization_name && <Typography>{details.basic.organization_name}</Typography>}
       {details?.basic?.first_name && <Typography>{details.basic.first_name} {details.basic.last_name}</Typography>}
