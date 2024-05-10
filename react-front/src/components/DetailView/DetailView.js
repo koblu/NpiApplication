@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import TextField from '@mui/material/TextField';
-import {Box, Paper, Button, Typography, TableContainer, TableCell, TableRow, Table} from '@mui/material';
+import {Box, Paper, Typography, TableContainer, TableCell, TableRow, Table} from '@mui/material';
 import { useState } from 'react';
 import { useConnection } from '../../utilities/useConnection';
 import ClearIcon from '@mui/icons-material/Clear';

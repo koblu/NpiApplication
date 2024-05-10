@@ -1,9 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './SearchResults.module.css';
-import TextField from '@mui/material/TextField';
-import {Box, Paper, Button, Card, Typography} from '@mui/material';
-import { useState } from 'react';
+import {Box, Paper, Card, Typography} from '@mui/material';
 import SearchResultRow from './SearchResultRow/SearchResultRow';
 import ClearIcon from '@mui/icons-material/Clear';
 

@@ -1,8 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './SearchForm.module.css';
 import TextField from '@mui/material/TextField';
-import {Box, Paper, Button, Typography, Alert, Card, AppBar} from '@mui/material';
+import {Box, Paper, Button} from '@mui/material';
 import { useState } from 'react';
 
 const SearchForm = (props) => { 

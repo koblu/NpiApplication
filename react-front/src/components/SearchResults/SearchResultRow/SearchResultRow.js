@@ -1,9 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './SearchResultRow.module.css';
-import TextField from '@mui/material/TextField';
-import {Box, Paper, Button, Typography} from '@mui/material';
-import { useState } from 'react';
+import {Paper, Typography} from '@mui/material';
 
 const SearchResultRow = (props) => { 
   const mailingAddress = props.result?.addresses?.find((address => address.address_purpose === "MAILING"));
